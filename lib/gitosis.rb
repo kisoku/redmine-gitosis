@@ -4,8 +4,8 @@ require 'net/ssh'
 
 module Gitosis
   # server config
-  GITOSIS_URI = 'git@your-server.com:/gitosis-admin.git'
-  GITOSIS_BASE_PATH = '/opt/gitosis/repositories/'
+  GITOSIS_URI = 'git@localhost:/gitosis-admin.git'
+  GITOSIS_BASE_PATH = '/srv/gitosis/repositories/'
   
   # commands
   ENV['GIT_SSH'] = SSH_WITH_IDENTITY_FILE = File.join(RAILS_ROOT, 'vendor/plugins/redmine_gitosis/extra/ssh_with_identity_file.sh')
