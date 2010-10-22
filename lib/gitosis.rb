@@ -4,7 +4,7 @@ require 'net/ssh'
 
 module Gitosis
   # server config
-  GITOSIS_URI = 'git@localhost:/gitosis-admin.git'
+  GITOSIS_URI = 'gitosis@localhost:/gitosis-admin.git'
   GITOSIS_BASE_PATH = '/srv/gitosis/repositories/'
   
   # commands
